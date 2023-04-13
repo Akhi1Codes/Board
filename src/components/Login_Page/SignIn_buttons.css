@@ -1,0 +1,22 @@
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+button img {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.signinBtn {
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #858585;
+  background-color: white;
+  width: 14em;
+  display: flex;
+  justify-content: center;
+  border-style: none;
+  align-items: center;
+}

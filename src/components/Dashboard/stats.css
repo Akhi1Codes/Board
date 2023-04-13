@@ -1,0 +1,45 @@
+.stats_container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 20px 0px 20px 0px;
+}
+.revenue,
+.users,
+.likes,
+.transactions {
+  flex: 1;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.revenue {
+  background-color: #ddefe0;
+}
+.transactions {
+  background-color: #f4ecdd;
+}
+.likes {
+  background-color: #efdada;
+}
+.users {
+  background-color: #dee0ef;
+}
+.title1 {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+.value {
+  font-size: 24px;
+  font-weight: bold;
+}
+img {
+  height: 22px;
+  width: 15%;
+}
+.iconContainer {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}

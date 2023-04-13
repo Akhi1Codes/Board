@@ -1,0 +1,11 @@
+.heading {
+  width: 100%;
+}
+.title {
+  font-size: 36px;
+  font-weight: 700;
+}
+.sub_text {
+  font-size: 16px;
+  margin-top: 5px;
+}

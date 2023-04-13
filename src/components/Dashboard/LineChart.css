@@ -1,0 +1,53 @@
+.graph {
+  padding: 15px;
+  border-radius: 20px;
+  height: 45%;
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  background-color: white;
+}
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.title_name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.graphtags {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.tags::before {
+  content: "";
+  display: inline-block;
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+  background-color: #e9a0a0;
+  margin-right: 10px;
+}
+.tags1::before {
+  content: "";
+  display: inline-block;
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+  background-color: #9bdd7c;
+  margin-right: 10px;
+}
+.tags {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+.dropdown {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  color: #858585;
+  font-size: 14;
+  border-style: none;
+}

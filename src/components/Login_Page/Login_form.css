@@ -1,0 +1,57 @@
+.form_container {
+  background-color: white;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+.label_name {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: 10px 0 5px 0;
+}
+.text_boxes {
+  font-family: "Lato", sans-serif;
+  border-style: none;
+  background-color: #eaeaea;
+  height: 40px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 20em;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.SignIn {
+  font-family: "Lato", sans-serif;
+  border-style: none;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.fr_password {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: 15px 0 15px 0;
+  color: #346bd4;
+}
+
+.regis_here {
+  display: flex;
+  justify-content: center;
+  color: #858585;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: 50px 0 15px 0;
+}
+.regis_here span {
+  font-family: "Lato", sans-serif;
+  color: #346bd4;
+  margin-left: 5px;
+}
